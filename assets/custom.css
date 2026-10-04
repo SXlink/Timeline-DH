@@ -73,9 +73,12 @@ body {
 
 .legend {
   position: relative;
-  margin-left: auto;
   flex: 0 0 auto;
 }
+
+/* Первый из блоков в шапке отжимает оба вправо. */
+.legend + .legend { margin-left: 8px; }
+.about { margin-left: auto; }
 
 .legend > summary {
   cursor: pointer;
@@ -115,6 +118,19 @@ body {
 .legend-body p { margin: 0 0 9px; }
 .legend-body p:last-child { margin-bottom: 0; }
 .legend-body b { color: var(--ink); }
+
+/* Предисловие длиннее легенды: панель шире, с подзаголовками разделов. */
+.about .legend-body { width: min(620px, calc(100vw - 24px)); }
+
+.legend-body h2 {
+  margin: 16px 0 7px;
+  font-family: "PT Serif", Georgia, serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.legend-body h2:first-child { margin-top: 0; }
 
 .legend-eras {
   margin: 0 0 9px;
@@ -284,3 +300,25 @@ code {
   .tl-text-content { font-size: 15px; }
   .tl-text-content .tl-lede { font-size: 16.5px; }
 }
+
+/* --- Дорожки на ленте ------------------------------------------------------
+   TimelineJS даёт полосам групп одинаковую высоту (156.5px при шаге 145px),
+   то есть соседние полосы заходят друг на друга на ~11 пикселей. Из-за этого
+   серая заливка «Критики» начиналась внутри «Методов» и читалась так, будто
+   критика захватывает чужую дорожку, а подпись висела посреди пустоты.
+
+   Поэтому заливку убираем совсем и разделяем дорожки волосяной линией:
+   нахлёст перестаёт быть виден, потому что сравнивать больше нечего.
+   Подпись дорожки поднимаем к верхнему краю полосы — туда, где начинаются
+   маркеры, а не в середину пустого места. */
+.tl-timenav .tl-timegroup,
+.tl-timenav .tl-timegroup.tl-timegroup-alternate {
+  background-color: transparent;
+  border-top: 1px solid var(--rule);
+}
+
+/* У первой дорожки верхняя граница совпала бы с краем ленты. */
+.tl-timenav .tl-timegroup:first-of-type { border-top: 0; }
+
+/* Подпись дорожки оставлена там, где её ставит TimelineJS: у верхнего края
+   полосы она налезала бы на первый ряд маркеров. */

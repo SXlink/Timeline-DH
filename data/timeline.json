@@ -4,7 +4,7 @@
     "unique_id": "title",
     "text": {
       "headline": "Текст как данные",
-      "text": "<p class='tl-lede'>Ключевые работы о тексте как данных: от подсчёта букв у Маркова до языковых моделей в роли разметчиков.</p><p><strong>Три дорожки.</strong> <em>Методы</em> — чем считают. <em>Теория</em> — что значит «читать» или «измерять» текст машиной. <em>Критика</em> — что при этом теряется. Дорожки идут отдельными рядами на ленте внизу.</p><p><strong>Четыре эпохи</strong> — цветные полосы под лентой: ручной подсчёт, словари и правила, статистические модели, эмбеддинги и языковые модели.</p><p><strong>Соразмерность.</strong> У главных событий — описание, ссылка по ГОСТ и блок переходов; у дополнительных — одна строка. Фотографии есть у четырёх ранних карточек.</p><p><strong>Пары «метод — критика».</strong> Стрелок лента не рисует, вместо них ссылки внутри карточек: из <a target='_self' href='#event-morozov-1915'>Морозова (1915)</a> можно перейти к <a target='_self' href='#event-markov-1916'>Маркову (1916)</a>. У каждой карточки свой адрес вида <code>#event-markov-1916</code>, на неё можно сослаться извне.</p><p>Ссылки оформлены по ГОСТ Р 7.0.5-2008.</p><p class='tl-ref'>Алексей Карелин, 4 октября 2026</p>"
+      "text": "<p class='tl-lede'>От контент-анализа до языковых моделей: как исследователи учились читать текст машиной и считать в нём слова, темы и смыслы.</p><p>Шкала не охватывает всю цифровую гуманитаристику — это одна линия, выбранная потому, что на ней хорошо видно, чем DH отличается от соседних полей и где это отличие пропадает.</p><p><strong>Две традиции.</strong> Гуманитарии с середины XX века использовали машину, чтобы читать и интерпретировать: она показывает в корпусе то, чего не увидит глаз, а смысл находки объясняет исследователь. Социологи и политологи — чтобы измерять: текст становится переменной, а результат проверяют на валидность и надёжность. Долгое время традиции шли параллельно, а потом сошлись.</p><p><strong>Три дорожки.</strong> События разложены не по традициям, а по видам. <em>Методы</em> — чем считают. <em>Теория и методология</em> — зачем и как читать текст машиной и что модель на самом деле измеряет. <em>Критика</em> — что при этом теряется. Традиция осталась меткой в карточке, первой строкой под заголовком: «гуманитарная линия», «социально-научная линия», «общая линия».</p><p><strong>Пары «метод — критика».</strong> Стрелок лента не рисует, вместо них ссылки внутри карточек: из <a target='_self' href='#event-morozov-1915'>Морозова (1915)</a> можно перейти к <a target='_self' href='#event-markov-1916'>Маркову (1916)</a>. У каждой карточки свой адрес вида <code>#event-markov-1916</code>, на неё можно сослаться извне.</p><p>Подробнее — в блоке «О шкале» в шапке страницы: откуда взялся вопрос, где граница DH истончается и как шкала собиралась. Ссылки оформлены по ГОСТ Р 7.0.5-2008.</p><p class='tl-ref'>Алексей Карелин, 4 октября 2026</p>"
     }
   },
   "eras": [
@@ -16,7 +16,7 @@
         "year": "1965"
       },
       "text": {
-        "headline": "Ручной подсчёт"
+        "headline": "Ручной подсчёт и первые машины"
       }
     },
     {
@@ -103,6 +103,18 @@
       "text": {
         "headline": "Лассуэлл: содержание пропаганды",
         "text": "<p class='tl-line'>Социально-научная линия</p><p>В диссертации о пропаганде Первой мировой войны Лассуэлл раскладывает её содержание на повторяющиеся категории: вина за войну, цели войны, образ врага. Содержание сообщений впервые становится объектом систематического анализа в политической науке. Количественный подсчёт символов Лассуэлл разовьёт позже, в 1930–1940-е, поэтому книгу 1927 года не стоит называть подсчётом слов.</p><p class='tl-ref'><strong>Ссылка:</strong> Lasswell H. D. Propaganda Technique in the World War. London : Kegan Paul, Trench, Trubner ; New York : Alfred A. Knopf, 1927. 233 p.</p><p class='tl-link'>Дальше: <a target='_self' href='#event-berelson-1952'>Берельсон, 1952</a>, <a target='_self' href='#event-stone-1966'>General Inquirer, 1966</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "busa-1949",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": {
+        "year": "1949"
+      },
+      "text": {
+        "headline": "Буза: Index Thomisticus",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Итальянский иезуит Роберто Буза задумывает полный конкорданс сочинений Фомы Аквинского — указатель всех словоформ со всеми вхождениями — и в 1949 году договаривается с IBM о машинной обработке. Около одиннадцати миллионов словоформ средневековой латыни переносят на перфокарты, потом на ленты. С этого проекта принято отсчитывать humanities computing.</p><p>Важно, зачем взяли машину. Не чтобы измерить текст и получить число, а чтобы его прочитать: конкорданс — инструмент филолога, он готовит материал для интерпретации. Рядом, в те же годы, Лассуэлл и его последователи считают в тексте символы пропаганды. Две традиции стартуют почти одновременно и расходятся с первого шага.</p><p>Печатный Index Thomisticus выходил с 1974 года, в 1990-е появился на CD-ROM, затем в сети.</p><p class='tl-ref'><strong>Ссылка:</strong> Busa R. The Annals of Humanities Computing: The Index Thomisticus // Computers and the Humanities. 1980. Vol. 14, no. 2. P. 83–90. DOI: <a href='https://doi.org/10.1007/BF02403798' target='_blank' rel='noopener'>10.1007/BF02403798</a>.</p><p class='tl-link'>Соседняя традиция в те же годы: <a target='_self' href='#event-lasswell-1927'>Лассуэлл, 1927</a>, <a target='_self' href='#event-berelson-1952'>Берельсон, 1952</a>. Словарный счёт на компьютере: <a target='_self' href='#event-stone-1966'>General Inquirer, 1966</a>. Поле, которое отсюда выросло: <a target='_self' href='#event-mccarty-2003'>Маккарти, 2003</a>, <a target='_self' href='#event-kirschenbaum-2010'>Киршенбаум, 2010</a>.</p>"
       }
     },
     {
@@ -270,7 +282,7 @@
       },
       "text": {
         "headline": "stylo: Delta в виде программы",
-        "text": "<p class='tl-minor'>Пакет для R с графическим интерфейсом: <a target='_self' href='#event-burrows-2002'>Delta</a> и кластеризация становятся доступны гуманитариям без программирования. Варианты метода — из <a target='_self' href='#event-argamon-2008'>Аргамона, 2008</a>.</p><p class='tl-ref'>Eder M., Rybicki J., Kestemont M. Stylometry with R: A Package for Computational Text Analysis // The R Journal. 2016. Vol. 8, no. 1. P. 107–121. DOI: <a href='https://doi.org/10.32614/RJ-2016-007' target='_blank' rel='noopener'>10.32614/RJ-2016-007</a>.</p>"
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p class='tl-minor'>Пакет для R с графическим интерфейсом: <a target='_self' href='#event-burrows-2002'>Delta</a> и кластеризация становятся доступны гуманитариям без программирования. Варианты метода — из <a target='_self' href='#event-argamon-2008'>Аргамона, 2008</a>.</p><p class='tl-ref'>Eder M., Rybicki J., Kestemont M. Stylometry with R: A Package for Computational Text Analysis // The R Journal. 2016. Vol. 8, no. 1. P. 107–121. DOI: <a href='https://doi.org/10.32614/RJ-2016-007' target='_blank' rel='noopener'>10.32614/RJ-2016-007</a>.</p>"
       }
     },
     {
@@ -294,7 +306,7 @@
       },
       "text": {
         "headline": "RuBERT",
-        "text": "<p class='tl-minor'>Первая русская BERT-модель (DeepPavlov): мультиязычный <a target='_self' href='#event-devlin-2019'>BERT</a> дообучен на русских текстах с новым словарём.</p><p class='tl-ref'>Kuratov Y., Arkhipov M. Adaptation of Deep Bidirectional Multilingual Transformers for Russian Language // arXiv. 2019. arXiv:1905.07213.</p>"
+        "text": "<p class='tl-line'>Общая линия, русская ветка</p><p class='tl-minor'>Первая русская BERT-модель (DeepPavlov): мультиязычный <a target='_self' href='#event-devlin-2019'>BERT</a> дообучен на русских текстах с новым словарём.</p><p class='tl-ref'>Kuratov Y., Arkhipov M. Adaptation of Deep Bidirectional Multilingual Transformers for Russian Language // arXiv. 2019. arXiv:1905.07213.</p>"
       }
     },
     {
@@ -330,12 +342,12 @@
       },
       "text": {
         "headline": "ruRoBERTa и семейство Сбера",
-        "text": "<p class='tl-minor'>Статья описывает 13 русских моделей: ruBERT, ruRoBERTa, ruELECTRA, ruGPT-3, ruT5, FRED-T5. Русская линия <a target='_self' href='#event-devlin-2019'>BERT</a> после <a target='_self' href='#event-rubert-2019'>RuBERT</a>. Событие стоит на дате статьи — сами модели выходили раньше.</p><p class='tl-ref'>A Family of Pretrained Transformer Language Models for Russian / D. Zmitrovich, A. Abramov, A. Kalmykov [et al.] // Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). Torino : ELRA ; ICCL, 2024. P. 507–524.</p>"
+        "text": "<p class='tl-line'>Общая линия, русская ветка</p><p class='tl-minor'>Статья описывает 13 русских моделей: ruBERT, ruRoBERTa, ruELECTRA, ruGPT-3, ruT5, FRED-T5. Русская линия <a target='_self' href='#event-devlin-2019'>BERT</a> после <a target='_self' href='#event-rubert-2019'>RuBERT</a>. Событие стоит на дате статьи — сами модели выходили раньше.</p><p class='tl-ref'>A Family of Pretrained Transformer Language Models for Russian / D. Zmitrovich, A. Abramov, A. Kalmykov [et al.] // Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). Torino : ELRA ; ICCL, 2024. P. 507–524.</p>"
       }
     },
     {
       "unique_id": "yarkho-1925",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "1925",
@@ -353,7 +365,7 @@
     },
     {
       "unique_id": "shannon-1948",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "1948"
@@ -365,7 +377,7 @@
     },
     {
       "unique_id": "harris-1954",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "1954"
@@ -377,7 +389,7 @@
     },
     {
       "unique_id": "pool-1959",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "1959"
@@ -389,7 +401,7 @@
     },
     {
       "unique_id": "holsti-1969",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "1969"
@@ -401,7 +413,7 @@
     },
     {
       "unique_id": "krippendorff-1980",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "1980"
@@ -413,7 +425,7 @@
     },
     {
       "unique_id": "moretti-2000",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2000"
@@ -425,7 +437,7 @@
     },
     {
       "unique_id": "mccarty-2003",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2003"
@@ -437,7 +449,7 @@
     },
     {
       "unique_id": "argamon-2008",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2008"
@@ -449,7 +461,7 @@
     },
     {
       "unique_id": "kirschenbaum-2010",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2010"
@@ -461,7 +473,7 @@
     },
     {
       "unique_id": "ramsay-2011",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2011"
@@ -473,7 +485,7 @@
     },
     {
       "unique_id": "jockers-2013",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2013"
@@ -485,7 +497,7 @@
     },
     {
       "unique_id": "grimmer-stewart-2013",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2013"
@@ -497,7 +509,7 @@
     },
     {
       "unique_id": "dimaggio-2013",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2013"
@@ -509,7 +521,7 @@
     },
     {
       "unique_id": "underwood-2017",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2017"
@@ -521,7 +533,7 @@
     },
     {
       "unique_id": "kozlowski-2019",
-      "group": "Теория",
+      "group": "Теория и методология",
       "autolink": false,
       "start_date": {
         "year": "2019"
