@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Текст как данные — таймлайн</title>
+<meta name="description" content="Таймлайн ключевых работ о тексте как данных: методы, теория и критика от Маркова (1913) до языковых моделей в роли разметчиков (2023).">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans+Narrow:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/3.9.12/css/timeline.css">
+<link rel="stylesheet" href="assets/custom.css">
+</head>
+<body>
+
+<header class="page-head">
+  <div class="head-title">
+    <h1>Текст как данные</h1>
+    <p class="head-sub">Ключевые работы по трём дорожкам: методы, теория, критика</p>
+  </div>
+
+  <details class="legend">
+    <summary>Как читать шкалу</summary>
+    <div class="legend-body">
+      <p><b>Три дорожки</b> — отдельные ряды на ленте внизу. <i>Методы</i> — чем считают.
+         <i>Критика</i> — что при этом теряется. <i>Теория</i> — что значит «читать» или
+         «измерять» текст машиной. Ряды идут в порядке первого события на дорожке.</p>
+      <p><b>Четыре эпохи</b> — цветные полосы под лентой:</p>
+      <ul class="legend-eras">
+        <li><span class="dot dot-1"></span>Ручной подсчёт, 1887–1965</li>
+        <li><span class="dot dot-2"></span>Словари и правила, 1966–1989</li>
+        <li><span class="dot dot-3"></span>Статистические модели, 1990–2012</li>
+        <li><span class="dot dot-4"></span>Эмбеддинги и языковые модели, 2013–2026</li>
+      </ul>
+      <p><b>Масштаб события передан текстом.</b> У главных работ есть картинка и полное
+         описание, у дополнительных — одна строка без картинки.</p>
+      <p><b>Пары «метод — критика».</b> Стрелок лента не рисует, вместо них ссылки внутри
+         карточек. У каждой карточки свой адрес: <code>#event-markov-1916</code>.</p>
+      <p><b>Плотность после 2010 года.</b> Шкала линейная, поэтому 1913–1966 выходят
+         просторными, а 2010-е — тесными. Помогают кнопки масштаба на ленте и три ряда.</p>
+      <p class="legend-src">Данные: <code>data/timeline.json</code>. Ссылки по
+         ГОСТ Р 7.0.5-2008; пометка «сверить» означает, что деталь подтверждена
+         одним источником.</p>
+    </div>
+  </details>
+</header>
+
+<main id="timeline-embed" role="region" aria-label="Таймлайн «Текст как данные»"></main>
+
+<noscript>
+  <p class="noscript">Для работы шкалы нужен JavaScript. Данные таймлайна лежат
+     в файле <code>data/timeline.json</code>.</p>
+</noscript>
+
+<script src="https://cdn.knightlab.com/libs/timeline3/3.9.12/js/timeline.js"></script>
+<script src="assets/timeline-init.js"></script>
+</body>
+</html>

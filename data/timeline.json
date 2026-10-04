@@ -1,0 +1,499 @@
+{
+  "scale": "human",
+  "title": {
+    "unique_id": "title",
+    "text": {
+      "headline": "Текст как данные",
+      "text": "<p class='tl-lede'>Ключевые работы о тексте как данных: от подсчёта букв у Маркова до языковых моделей в роли разметчиков.</p><p><strong>Три дорожки.</strong> <em>Методы</em> — чем считают. <em>Теория</em> — что значит «читать» или «измерять» текст машиной. <em>Критика</em> — что при этом теряется. Дорожки идут отдельными рядами на ленте внизу.</p><p><strong>Четыре эпохи</strong> — цветные полосы под лентой: ручной подсчёт, словари и правила, статистические модели, эмбеддинги и языковые модели.</p><p><strong>Соразмерность.</strong> У главных событий есть картинка и полное описание, у дополнительных — одна строка.</p><p><strong>Пары «метод — критика».</strong> Стрелок лента не рисует, вместо них ссылки внутри карточек: из <a target='_self' href='#event-morozov-1915'>Морозова (1915)</a> можно перейти к <a target='_self' href='#event-markov-1916'>Маркову (1916)</a>. У каждой карточки свой адрес вида <code>#event-markov-1916</code>, на неё можно сослаться извне.</p><p>Ссылки оформлены по ГОСТ Р 7.0.5-2008. Пометка «сверить» означает, что деталь подтверждена одним источником.</p><p class='tl-ref'>Алексей Карелин, 4 октября 2026</p>"
+    }
+  },
+  "eras": [
+    {
+      "start_date": { "year": "1887" },
+      "end_date": { "year": "1965" },
+      "text": { "headline": "Ручной подсчёт" }
+    },
+    {
+      "start_date": { "year": "1966" },
+      "end_date": { "year": "1989" },
+      "text": { "headline": "Словари и правила" }
+    },
+    {
+      "start_date": { "year": "1990" },
+      "end_date": { "year": "2012" },
+      "text": { "headline": "Статистические модели" }
+    },
+    {
+      "start_date": { "year": "2013" },
+      "end_date": { "year": "2026" },
+      "text": { "headline": "Эмбеддинги и языковые модели" }
+    }
+  ],
+  "events": [
+    {
+      "unique_id": "markov-1913",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1913" },
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/AAMarkov.jpg",
+        "caption": "А. А. Марков (1856–1922). Снимок 1870-х годов",
+        "credit": "Wikimedia Commons, общественное достояние"
+      },
+      "text": {
+        "headline": "Марков: цепи на «Евгении Онегине»",
+        "text": "<p class='tl-line'>Общая линия, русская ветка</p><p>Марков выписал первые 20 000 букв «Евгения Онегина» и посчитал, как гласные и согласные следуют друг за другом. Так он впервые проверил на реальном тексте свою теорию зависимых испытаний — будущие цепи Маркова. Отсюда идёт линия к n-граммным языковым моделям и в итоге к современным LLM.</p><p class='tl-ref'><strong>Ссылка:</strong> Марков А. А. Пример статистического исследования над текстом «Евгения Онегина», иллюстрирующий связь испытаний в цепь // Известия Императорской Академии наук. VI серия. 1913. Т. 7, № 3. С. 153–162.</p><p class='tl-link'>Дальше по линии: <a target='_self' href='#event-devlin-2019'>BERT, 2019</a>. Тот же Марков через три года разбирает Морозова: <a target='_self' href='#event-markov-1916'>1916</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "morozov-1915",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1915" },
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/MorozovNA.jpg",
+        "caption": "Н. А. Морозов (1854–1946). Снимок до 1917 года",
+        "credit": "Wikimedia Commons, общественное достояние"
+      },
+      "text": {
+        "headline": "Морозов: «лингвистические спектры»",
+        "text": "<p class='tl-line'>Гуманитарная линия, русская ветка</p><p>Морозов предлагает различать авторов по частотам служебных слов — предлогов, союзов, частиц — и называет такие профили «спектрами». Это та же идея, что позже у Мостеллера и Уоллеса и у Берроуза, только на полвека раньше и с ручным подсчётом. С этой статьи в русском языке закрепляется слово «стилеметрия».</p><p class='tl-ref'><strong>Ссылка:</strong> Морозов Н. А. Лингвистические спектры: средство для отличения плагиатов от истинных произведений того или другого известного автора // Известия Отделения русского языка и словесности Императорской Академии наук. 1915. Т. 20, кн. 4. С. 93–134.</p><p class='tl-link'><strong>Пара на дорожке критики:</strong> <a target='_self' href='#event-markov-1916'>Марков против Морозова, 1916</a>. Та же идея позже: <a target='_self' href='#event-mosteller-wallace-1964'>Мостеллер и Уоллес, 1964</a>, <a target='_self' href='#event-burrows-2002'>Delta, 2002</a>.</p><p class='tl-verify'>Сверить: страницы 93–134 подтверждены одним источником; полное русское заглавие стоит проверить по самому выпуску «Известий ОРЯС».</p>"
+      }
+    },
+    {
+      "unique_id": "lasswell-1927",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1927" },
+      "media": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Harolddwightlasswell.png",
+        "caption": "Гарольд Лассуэлл (1902–1978)",
+        "credit": "Martap95, Wikimedia Commons, CC BY-SA 4.0"
+      },
+      "text": {
+        "headline": "Лассуэлл: содержание пропаганды",
+        "text": "<p class='tl-line'>Социально-научная линия</p><p>В диссертации о пропаганде Первой мировой войны Лассуэлл раскладывает её содержание на повторяющиеся категории: вина за войну, цели войны, образ врага. Содержание сообщений впервые становится объектом систематического анализа в политической науке. Количественный подсчёт символов Лассуэлл разовьёт позже, в 1930–1940-е, поэтому книгу 1927 года не стоит называть подсчётом слов.</p><p class='tl-ref'><strong>Ссылка:</strong> Lasswell H. D. Propaganda Technique in the World War. London : Kegan Paul, Trench, Trubner ; New York : Alfred A. Knopf, 1927. 233 p.</p><p class='tl-link'>Дальше: <a target='_self' href='#event-berelson-1952'>Берельсон, 1952</a>, <a target='_self' href='#event-stone-1966'>General Inquirer, 1966</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "mosteller-wallace-1964",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1964" },
+      "text": {
+        "headline": "Мостеллер и Уоллес: «Записки федералиста»",
+        "text": "<p class='tl-line'>Гуманитарная линия: статистика на гуманитарном вопросе</p><p>Статистики решают спор, кто написал 12 спорных «Записок федералиста» — Гамильтон или Мэдисон. Они сравнивают частоты служебных слов вроде <em>upon</em> и <em>whilst</em> и применяют байесовский вывод; ответ — Мэдисон. Работа показала, что вопрос историков можно решить подсчётом, и стала образцом для всей стилометрии.</p><p class='tl-ref'><strong>Ссылка:</strong> Mosteller F., Wallace D. L. Inference and Disputed Authorship: The Federalist. Reading (MA) : Addison-Wesley, 1964. 287 p.</p><p class='tl-link'>Раньше и о том же: <a target='_self' href='#event-morozov-1915'>Морозов, 1915</a>. Позже: <a target='_self' href='#event-burrows-2002'>Delta, 2002</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "stone-1966",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1966" },
+      "text": {
+        "headline": "General Inquirer: контент-анализ на компьютере",
+        "text": "<p class='tl-line'>Социально-научная линия</p><p>Стоун и коллеги из Гарварда описывают систему, которая сопоставляет слова текста со словарём психологических и социальных категорий и считает, сколько текста приходится на каждую. Это первая широко используемая компьютерная программа контент-анализа. От неё идут все словарные методы, включая LIWC.</p><p class='tl-ref'><strong>Ссылка:</strong> The General Inquirer: A Computer Approach to Content Analysis / P. J. Stone, D. C. Dunphy, M. S. Smith, D. M. Ogilvie. Cambridge (MA) : MIT Press, 1966. 651 p.</p><p class='tl-link'>Раньше: <a target='_self' href='#event-lasswell-1927'>Лассуэлл, 1927</a>, <a target='_self' href='#event-berelson-1952'>Берельсон, 1952</a>. Позже: <a target='_self' href='#event-liwc-2010'>LIWC, 2010</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "burrows-2002",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2002" },
+      "text": {
+        "headline": "Берроуз: Delta",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Берроуз берёт самые частотные слова корпуса, переводит их частоты в z-оценки и считает среднее расстояние между текстами: чем меньше Delta, тем вероятнее общий автор. Метод простой и прозрачный, он до сих пор служит базовым для сравнения в атрибуции.</p><p class='tl-ref'><strong>Ссылка:</strong> Burrows J. ‘Delta’: a Measure of Stylistic Difference and a Guide to Likely Authorship // Literary and Linguistic Computing. 2002. Vol. 17, no. 3. P. 267–287. DOI: <a href='https://doi.org/10.1093/llc/17.3.267' target='_blank' rel='noopener'>10.1093/llc/17.3.267</a>.</p><p class='tl-link'>Корни: <a target='_self' href='#event-burrows-1987'>книга об Остин, 1987</a>. Почему метод работает: <a target='_self' href='#event-argamon-2008'>Аргамон, 2008</a>. В виде программы: <a target='_self' href='#event-stylo-2016'>stylo, 2016</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "blei-2003",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2003" },
+      "text": {
+        "headline": "Блей, Ын, Джордан: LDA",
+        "text": "<p class='tl-line'>Общая линия</p><p>Модель представляет документ как смесь тем, а тему как распределение слов, и учится без разметки. LDA стала первым методом, который массово взяли и гуманитарии, и социологи: на ней две традиции начали сходиться.</p><p class='tl-ref'><strong>Ссылка:</strong> Blei D. M., Ng A. Y., Jordan M. I. Latent Dirichlet Allocation // Journal of Machine Learning Research. 2003. Vol. 3. P. 993–1022.</p><p class='tl-link'>Встреча традиций: <a target='_self' href='#event-dimaggio-2013'>Димаджио, Наг, Блей, 2013</a>. Переосмысление: <a target='_self' href='#event-bertopic-2022'>BERTopic, 2022</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "michel-2011",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2011" },
+      "text": {
+        "headline": "Мишель и др.: культуромика",
+        "text": "<p class='tl-line'>Мост между линиями</p><p>Команда из Гарварда и Google собирает корпус из 5 195 769 оцифрованных книг — примерно 4% всех когда-либо напечатанных — и считает частоты слов и n-грамм по годам. Авторы называют подход «культуромикой» и показывают, как по частотам изучать лексикографию, коллективную память, цензуру и славу; вместе со статьёй появился Google Books Ngram Viewer.</p><p class='tl-ref'><strong>Ссылка:</strong> Quantitative Analysis of Culture Using Millions of Digitized Books / J.-B. Michel, Y. K. Shen, A. P. Aiden [et al.] // Science. 2011. Vol. 331, no. 6014. P. 176–182. DOI: <a href='https://doi.org/10.1126/science.1199644' target='_blank' rel='noopener'>10.1126/science.1199644</a>.</p><p class='tl-link'><strong>Пара на дорожке критики:</strong> <a target='_self' href='#event-pechenick-2015'>Печеник и др., 2015</a>. Тот же приём как теория культуры: <a target='_self' href='#event-kozlowski-2019'>Козловски и др., 2019</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "devlin-2019",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2019" },
+      "text": {
+        "headline": "BERT: предобучение и дообучение",
+        "text": "<p class='tl-line'>Общая линия</p><p>Модель на архитектуре Transformer предобучается на большом корпусе, угадывая пропущенные слова по контексту с обеих сторон, а затем дообучается под конкретную задачу. Классификатор тем или тональности больше не строят с нуля: берут предобученную модель и дообучают на небольшой разметке.</p><p class='tl-ref'><strong>Ссылка:</strong> BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding / J. Devlin, M.-W. Chang, K. Lee, K. Toutanova // Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Vol. 1. Minneapolis : ACL, 2019. P. 4171–4186. DOI: <a href='https://doi.org/10.18653/v1/N19-1423' target='_blank' rel='noopener'>10.18653/v1/N19-1423</a>.</p><p class='tl-link'>Основа: <a target='_self' href='#event-transformer-2017'>Transformer, 2017</a>. Русские версии: <a target='_self' href='#event-rubert-2019'>RuBERT, 2019</a>, <a target='_self' href='#event-ruroberta-2024'>семейство Сбера</a>. Критика: <a target='_self' href='#event-bender-koller-2020'>Бендер и Коллер, 2020</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "gilardi-2023",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2023" },
+      "text": {
+        "headline": "Джиларди и др.: ChatGPT как разметчик",
+        "text": "<p class='tl-line'>Социально-научная линия</p><p>Авторы дают ChatGPT те же инструкции по кодированию, что и своим ассистентам, и размечают 6183 твита и новостных текста. Без примеров в промпте модель точнее краудворкеров с MTurk в среднем примерно на 25 процентных пунктов, согласованнее даже обученных разметчиков и дешевле — 0,003 доллара за аннотацию. Статья открыла спор о языковых моделях как разметчиках в социальных науках.</p><p class='tl-ref'><strong>Ссылка:</strong> Gilardi F., Alizadeh M., Kubli M. ChatGPT outperforms crowd workers for text-annotation tasks // Proceedings of the National Academy of Sciences of the United States of America. 2023. Vol. 120, no. 30. Art. e2305016120. DOI: <a href='https://doi.org/10.1073/pnas.2305016120' target='_blank' rel='noopener'>10.1073/pnas.2305016120</a>.</p><p class='tl-link'>Откуда такая модель: <a target='_self' href='#event-gpt3-2020'>GPT-3, 2020</a>. Критика: <a target='_self' href='#event-bender-2021'>стохастические попугаи, 2021</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "mendenhall-1887",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1887" },
+      "text": {
+        "headline": "Менденхолл: кривые длин слов",
+        "text": "<p class='tl-minor'>Строит «кривые» распределения длин слов и предлагает сравнивать по ним авторов — первая количественная попытка атрибуции. <a target='_self' href='#event-morozov-1915'>Дальше: Морозов, 1915</a>.</p><p class='tl-ref'>Mendenhall T. C. The Characteristic Curves of Composition // Science. 1887. Vol. 9, no. 214S. P. 237–249.</p><p class='tl-verify'>Сверить: страницы 237–249 по одному источнику, в других встречается 237–246.</p>"
+      }
+    },
+    {
+      "unique_id": "berelson-1952",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1952" },
+      "text": {
+        "headline": "Берельсон: контент-анализ как метод",
+        "text": "<p class='tl-minor'>Первая монография о контент-анализе: даёт классическое определение метода как объективного, систематического и количественного описания явного содержания сообщений. <a target='_self' href='#event-stone-1966'>Дальше: General Inquirer, 1966</a>.</p><p class='tl-ref'>Berelson B. Content Analysis in Communication Research. Glencoe (IL) : Free Press, 1952.</p><p class='tl-verify'>Сверить издательство и год по каталогу РГБ или WorldCat.</p>"
+      }
+    },
+    {
+      "unique_id": "burrows-1987",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1987" },
+      "text": {
+        "headline": "Берроуз: Остин и обычные слова",
+        "text": "<p class='tl-minor'>Показывает, что даже персонажи различаются частотами самых обычных слов. Из этого подхода выросла <a target='_self' href='#event-burrows-2002'>Delta, 2002</a>.</p><p class='tl-ref'>Burrows J. F. Computation into Criticism: A Study of Jane Austen’s Novels and an Experiment in Method. Oxford : Clarendon Press, 1987.</p><p class='tl-verify'>Сверить издательство и год по каталогу РГБ или WorldCat.</p>"
+      }
+    },
+    {
+      "unique_id": "lsa-1990",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "1990" },
+      "text": {
+        "headline": "LSA: скрытые измерения смысла",
+        "text": "<p class='tl-minor'>Слова и документы помещаются в общее скрытое «семантическое пространство» — первый шаг от мешка слов к скрытым измерениям смысла. Теоретическая основа: <a target='_self' href='#event-harris-1954'>Харрис, 1954</a>.</p><p class='tl-ref'>Indexing by Latent Semantic Analysis / S. Deerwester, S. T. Dumais, G. W. Furnas [et al.] // Journal of the American Society for Information Science. 1990. Vol. 41, no. 6. P. 391–407.</p><p class='tl-verify'>Сверить страницы 391–407.</p>"
+      }
+    },
+    {
+      "unique_id": "liwc-2010",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2010" },
+      "text": {
+        "headline": "LIWC: обзор словарных методов",
+        "text": "<p class='tl-minor'>История словарных методов от <a target='_self' href='#event-stone-1966'>General Inquirer</a> до LIWC и объяснение, что именно они считают.</p><p class='tl-ref'>Tausczik Y. R., Pennebaker J. W. The Psychological Meaning of Words: LIWC and Computerized Text Analysis Methods // Journal of Language and Social Psychology. 2010. Vol. 29, no. 1. P. 24–54. DOI: <a href='https://doi.org/10.1177/0261927X09351676' target='_blank' rel='noopener'>10.1177/0261927X09351676</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "word2vec-2013",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2013" },
+      "text": {
+        "headline": "word2vec",
+        "text": "<p class='tl-minor'>Значение слова — вектор, выученный по контекстам. Идея восходит к <a target='_self' href='#event-harris-1954'>Харрису, 1954</a>; отсюда <a target='_self' href='#event-kozlowski-2019'>«геометрия культуры», 2019</a> и <a target='_self' href='#event-bolukbasi-2016'>критика стереотипов, 2016</a>.</p><p class='tl-ref'>Efficient Estimation of Word Representations in Vector Space / T. Mikolov, K. Chen, G. Corrado, J. Dean // arXiv. 2013. arXiv:1301.3781.</p><p class='tl-verify'>Сверить номер препринта arXiv:1301.3781.</p>"
+      }
+    },
+    {
+      "unique_id": "stylo-2016",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2016" },
+      "text": {
+        "headline": "stylo: Delta в виде программы",
+        "text": "<p class='tl-minor'>Пакет для R с графическим интерфейсом: <a target='_self' href='#event-burrows-2002'>Delta</a> и кластеризация становятся доступны гуманитариям без программирования. Варианты метода — из <a target='_self' href='#event-argamon-2008'>Аргамона, 2008</a>.</p><p class='tl-ref'>Eder M., Rybicki J., Kestemont M. Stylometry with R: A Package for Computational Text Analysis // The R Journal. 2016. Vol. 8, no. 1. P. 107–121. DOI: <a href='https://doi.org/10.32614/RJ-2016-007' target='_blank' rel='noopener'>10.32614/RJ-2016-007</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "transformer-2017",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2017" },
+      "text": {
+        "headline": "Transformer",
+        "text": "<p class='tl-minor'>Архитектура на механизме внимания, без рекуррентных слоёв. Основа <a target='_self' href='#event-devlin-2019'>BERT</a> и всех современных LLM.</p><p class='tl-ref'>Attention Is All You Need / A. Vaswani, N. Shazeer, N. Parmar [et al.] // Advances in Neural Information Processing Systems 30 (NIPS 2017). Red Hook (NY) : Curran Associates, 2017. P. 5998–6008.</p>"
+      }
+    },
+    {
+      "unique_id": "rubert-2019",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2019" },
+      "text": {
+        "headline": "RuBERT",
+        "text": "<p class='tl-minor'>Первая русская BERT-модель (DeepPavlov): мультиязычный <a target='_self' href='#event-devlin-2019'>BERT</a> дообучен на русских текстах с новым словарём.</p><p class='tl-ref'>Kuratov Y., Arkhipov M. Adaptation of Deep Bidirectional Multilingual Transformers for Russian Language // arXiv. 2019. arXiv:1905.07213.</p><p class='tl-verify'>Цитируется препринт arXiv. Для версии из сборника «Диалога-2019» нужно найти страницы.</p>"
+      }
+    },
+    {
+      "unique_id": "gpt3-2020",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2020" },
+      "text": {
+        "headline": "GPT-3: few-shot",
+        "text": "<p class='tl-minor'>Модель решает задачи по нескольким примерам в промпте без дообучения. Мост от <a target='_self' href='#event-devlin-2019'>BERT</a> к <a target='_self' href='#event-gilardi-2023'>языковым моделям в роли разметчиков</a>.</p><p class='tl-ref'>Language Models are Few-Shot Learners / T. B. Brown, B. Mann, N. Ryder [et al.] // Advances in Neural Information Processing Systems 33 (NeurIPS 2020). 2020. P. 1877–1901.</p><p class='tl-verify'>Сверить страницы 1877–1901.</p>"
+      }
+    },
+    {
+      "unique_id": "bertopic-2022",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2022" },
+      "text": {
+        "headline": "BERTopic (препринт)",
+        "text": "<p class='tl-minor'>Темы строятся поверх контекстных эмбеддингов, а не мешка слов: переосмысление <a target='_self' href='#event-blei-2003'>LDA</a>. Это препринт.</p><p class='tl-ref'>Grootendorst M. BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure // arXiv. 2022. arXiv:2203.05794.</p><p class='tl-verify'>Сверить номер препринта arXiv:2203.05794.</p>"
+      }
+    },
+    {
+      "unique_id": "ruroberta-2024",
+      "group": "Методы",
+      "autolink": false,
+      "start_date": { "year": "2024" },
+      "text": {
+        "headline": "ruRoBERTa и семейство Сбера",
+        "text": "<p class='tl-minor'>Статья описывает 13 русских моделей: ruBERT, ruRoBERTa, ruELECTRA, ruGPT-3, ruT5, FRED-T5. Русская линия <a target='_self' href='#event-devlin-2019'>BERT</a> после <a target='_self' href='#event-rubert-2019'>RuBERT</a>.</p><p class='tl-ref'>A Family of Pretrained Transformer Language Models for Russian / D. Zmitrovich, A. Abramov, A. Kalmykov [et al.] // Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). Torino : ELRA ; ICCL, 2024. P. 507–524.</p><p class='tl-verify'>Событие стоит на дате статьи. Модели вышли раньше: год выпуска ruRoBERTa сверьте по странице модели на Hugging Face или по анонсу Сбера и перенесите событие на него. Поле <code>createdAt</code> в API Hugging Face для этой модели показывает служебную дату 2 марта 2022 года и для датировки не годится.</p>"
+      }
+    },
+    {
+      "unique_id": "harris-1954",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "1954" },
+      "text": {
+        "headline": "Харрис: дистрибутивная структура",
+        "text": "<p class='tl-line'>Лингвистика, общий корень</p><p>Харрис предлагает описывать язык через распределение элементов — через окружения, в которых они встречаются. Его тезис: различия в значении соответствуют различиям в распределении. Это дистрибутивная гипотеза, на которой стоят LSA, word2vec и все эмбеддинги.</p><p class='tl-ref'><strong>Ссылка:</strong> Harris Z. S. Distributional Structure // Word. 1954. Vol. 10, no. 2–3. P. 146–162. DOI: <a href='https://doi.org/10.1080/00437956.1954.11659520' target='_blank' rel='noopener'>10.1080/00437956.1954.11659520</a>.</p><p class='tl-link'>Что из этого выросло: <a target='_self' href='#event-lsa-1990'>LSA, 1990</a>, <a target='_self' href='#event-word2vec-2013'>word2vec, 2013</a>, <a target='_self' href='#event-kozlowski-2019'>геометрия культуры, 2019</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "moretti-2000",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2000" },
+      "text": {
+        "headline": "Моретти: «дальнее чтение»",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Моретти предлагает изучать мировую литературу не через чтение отдельных текстов, а через единицы крупнее или мельче текста: жанры, приёмы, системы. Компьютер в статье не нужен: дальнее чтение рождается как теоретическая программа, а не как метод. На эту статью опирается почти вся дискуссия на дорожке критики.</p><p class='tl-ref'><strong>Ссылка:</strong> Moretti F. Conjectures on World Literature // New Left Review. 2000. No. 1. P. 54–68.</p><p class='tl-link'>Критика: <a target='_self' href='#event-bode-2017'>Боде, 2017</a>, <a target='_self' href='#event-reitblat-2018'>Рейтблат, 2018</a>, <a target='_self' href='#event-da-2019'>Да, 2019</a>. Генеалогия: <a target='_self' href='#event-underwood-2017'>Андервуд, 2017</a>.</p><p class='tl-verify'>Сверить конечную страницу (68).</p>"
+      }
+    },
+    {
+      "unique_id": "argamon-2008",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2008" },
+      "text": {
+        "headline": "Аргамон: почему Delta работает",
+        "text": "<p class='tl-line'>Гуманитарная линия, теория метода</p><p>Delta шесть лет использовали, не понимая до конца, что именно она измеряет. Аргамон даёт ей геометрическую и вероятностную интерпретацию: Delta оказывается ранжированием кандидатов в авторы по вероятности при определённых допущениях о частотах слов. Отсюда видны пределы метода и его варианты. Хороший пример того, как осмысление отстаёт от метода.</p><p class='tl-ref'><strong>Ссылка:</strong> Argamon S. Interpreting Burrows’s Delta: Geometric and Probabilistic Foundations // Literary and Linguistic Computing. 2008. Vol. 23, no. 2. P. 131–147. DOI: <a href='https://doi.org/10.1093/llc/fqn003' target='_blank' rel='noopener'>10.1093/llc/fqn003</a>.</p><p class='tl-link'>Метод: <a target='_self' href='#event-burrows-2002'>Delta, 2002</a>. Варианты в программе: <a target='_self' href='#event-stylo-2016'>stylo, 2016</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "kirschenbaum-2010",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2010" },
+      "text": {
+        "headline": "Киршенбаум: что такое DH",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Киршенбаум рассказывает, как humanities computing стали называться digital humanities, и объясняет, почему поле прижилось на филологических факультетах: работа с текстом, редакторская традиция, интерес к гипертексту. DH у него скорее сообщество практик и инфраструктура, чем отдельная дисциплина.</p><p class='tl-ref'><strong>Ссылка:</strong> Kirschenbaum M. G. What Is Digital Humanities and What’s It Doing in English Departments? // ADE Bulletin. 2010. No. 150. P. 55–61. DOI: <a href='https://doi.org/10.1632/ade.150.55' target='_blank' rel='noopener'>10.1632/ade.150.55</a>.</p><p class='tl-ref'><strong>Перепечатка из списка курса:</strong> Kirschenbaum M. G. What Is Digital Humanities and What’s It Doing in English Departments? // Debates in the Digital Humanities / ed. M. K. Gold. Minneapolis : University of Minnesota Press, 2012. Ch. 1. DOI: <a href='https://doi.org/10.5749/minnesota/9780816677948.003.0001' target='_blank' rel='noopener'>10.5749/minnesota/9780816677948.003.0001</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "ramsay-2011",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2011" },
+      "text": {
+        "headline": "Рэмзи: алгоритмическая критика",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Рэмзи считает, что компьютер не доказывает интерпретацию, а преобразует текст: переставляет, считает, отбирает. Эти деформации дают литературоведу новый материал для чтения. Это гуманитарный ответ на вопрос, зачем машине читать: ради интерпретации, а не измерения.</p><p class='tl-ref'><strong>Ссылка:</strong> Ramsay S. Reading Machines: Toward an Algorithmic Criticism. Urbana : University of Illinois Press, 2011.</p><p class='tl-link'>Противоположный ответ: <a target='_self' href='#event-grimmer-stewart-2013'>Гриммер и Стюарт, 2013</a>. В том же году о графиках: <a target='_self' href='#event-drucker-2011'>Друкер, 2011</a>.</p><p class='tl-verify'>Сверить издательство и год по каталогу РГБ или WorldCat.</p>"
+      }
+    },
+    {
+      "unique_id": "jockers-2013",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2013" },
+      "text": {
+        "headline": "Джокерс: макроанализ",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Джокерс называет свой подход макроанализом, по аналогии с макроэкономикой. Он изучает тысячи романов XIX века вместе, чтобы увидеть закономерности стиля, тем и влияний, которые не видны при чтении отдельных книг. Макро- и микроанализ у него не спорят, а дополняют друг друга.</p><p class='tl-ref'><strong>Ссылка:</strong> Jockers M. L. Macroanalysis: Digital Methods and Literary History. Urbana : University of Illinois Press, 2013.</p><p class='tl-link'>Опирается на <a target='_self' href='#event-moretti-2000'>Моретти, 2000</a>. Критика: <a target='_self' href='#event-bode-2017'>Боде, 2017</a>.</p><p class='tl-verify'>Сверить издательство и год по каталогу РГБ или WorldCat.</p>"
+      }
+    },
+    {
+      "unique_id": "grimmer-stewart-2013",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2013" },
+      "text": {
+        "headline": "Гриммер и Стюарт: «текст как данные»",
+        "text": "<p class='tl-line'>Социально-научная линия</p><p>Программная статья подхода в политологии. Принципы: любая количественная модель языка неверна, но может быть полезной; модель дополняет исследователя, а не заменяет его; универсального метода нет; модель нужно проверять снова и снова. Результат здесь — проверенное измерение, и этим статья хорошо противопоставляется Моретти.</p><p class='tl-ref'><strong>Ссылка:</strong> Grimmer J., Stewart B. M. Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts // Political Analysis. 2013. Vol. 21, no. 3. P. 267–297. DOI: <a href='https://doi.org/10.1093/pan/mps028' target='_blank' rel='noopener'>10.1093/pan/mps028</a>.</p><p class='tl-link'>Противоположный полюс: <a target='_self' href='#event-moretti-2000'>Моретти, 2000</a>, <a target='_self' href='#event-ramsay-2011'>Рэмзи, 2011</a>. Продолжение: <a target='_self' href='#event-grimmer-roberts-stewart-2022'>книга 2022 года</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "dimaggio-2013",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2013" },
+      "text": {
+        "headline": "Димаджио, Наг, Блей: темы и социология культуры",
+        "text": "<p class='tl-line'>Мост между линиями</p><p>На почти 8000 газетных статей о господдержке искусства в США (1986–1997) авторы показывают, что тематическая модель хорошо ложится на понятия социологии культуры: фрейминг, многозначность, реляционность смысла. Это та же LDA, что у гуманитариев, но встроенная в социологическую теорию и с процедурой проверки. Статья вышла в специальном номере Poetics о тематических моделях.</p><p class='tl-ref'><strong>Ссылка:</strong> DiMaggio P., Nag M., Blei D. Exploiting Affinities between Topic Modeling and the Sociological Perspective on Culture: Application to Newspaper Coverage of U.S. Government Arts Funding // Poetics. 2013. Vol. 41, no. 6. P. 570–606. DOI: <a href='https://doi.org/10.1016/j.poetic.2013.08.004' target='_blank' rel='noopener'>10.1016/j.poetic.2013.08.004</a>.</p><p class='tl-link'>Метод: <a target='_self' href='#event-blei-2003'>LDA, 2003</a>. О встрече традиций: <a target='_self' href='#event-underwood-2017'>Андервуд, 2017</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "underwood-2017",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2017" },
+      "text": {
+        "headline": "Андервуд: генеалогия дальнего чтения",
+        "text": "<p class='tl-line'>Мост между линиями</p><p>Андервуд доказывает, что дальнее чтение — не ветвь DH, а отдельная традиция: разговор литературоведения с социальными науками, начатый задолго до интернета (Реймонд Уильямс, Дженис Рэдуэй) и постепенно пришедший к экспериментальному методу. Для шкалы это ключевой текст: он прямо говорит о встрече двух традиций.</p><p class='tl-ref'><strong>Ссылка:</strong> Underwood T. A Genealogy of Distant Reading // Digital Humanities Quarterly. 2017. Vol. 11, no. 2. URL: <a href='http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html' target='_blank' rel='noopener'>digitalhumanities.org/dhq/vol/11/2/000317/000317.html</a> (дата обращения: 04.10.2026).</p><p class='tl-link'>О ком речь: <a target='_self' href='#event-moretti-2000'>Моретти, 2000</a>, <a target='_self' href='#event-kirschenbaum-2010'>Киршенбаум, 2010</a>, <a target='_self' href='#event-dimaggio-2013'>Димаджио и др., 2013</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "kozlowski-2019",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2019" },
+      "text": {
+        "headline": "Козловски, Тэдди, Эванс: геометрия культуры",
+        "text": "<p class='tl-line'>Социально-научная линия</p><p>Авторы строят векторные модели на текстах миллионов книг за сто лет. Оси вроде «богатый — бедный» в пространстве эмбеддингов соответствуют измерениям культурного смысла, и это проверено опросами. Маркеры класса менялись, а базовые измерения оставались стабильными — кроме образования. Так технический метод становится теорией культуры.</p><p class='tl-ref'><strong>Ссылка:</strong> Kozlowski A. C., Taddy M., Evans J. A. The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings // American Sociological Review. 2019. Vol. 84, no. 5. P. 905–949. DOI: <a href='https://doi.org/10.1177/0003122419877135' target='_blank' rel='noopener'>10.1177/0003122419877135</a>.</p><p class='tl-link'>Корень: <a target='_self' href='#event-harris-1954'>Харрис, 1954</a>, <a target='_self' href='#event-word2vec-2013'>word2vec, 2013</a>. То же свойство как изъян: <a target='_self' href='#event-bolukbasi-2016'>Болукбаши и др., 2016</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "grimmer-roberts-stewart-2022",
+      "group": "Теория",
+      "autolink": false,
+      "start_date": { "year": "2022" },
+      "text": {
+        "headline": "Гриммер, Робертс, Стюарт: система подхода",
+        "text": "<p class='tl-line'>Социально-научная линия</p><p>Книга сводит подход «текст как данные» в систему задач: представление текста, обнаружение, измерение, предсказание, причинный вывод. Главная мысль: метод выбирают под исследовательский вопрос, а модели машинного обучения встраивают в дизайн исследования, а не наоборот.</p><p class='tl-ref'><strong>Ссылка:</strong> Grimmer J., Roberts M. E., Stewart B. M. Text as Data: A New Framework for Machine Learning and the Social Sciences. Princeton : Princeton University Press, 2022.</p><p class='tl-link'>Начало: <a target='_self' href='#event-grimmer-stewart-2013'>статья 2013 года</a>.</p><p class='tl-verify'>Сверить издательство и год по каталогу РГБ или WorldCat.</p>"
+      }
+    },
+    {
+      "unique_id": "markov-1916",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "1916" },
+      "text": {
+        "headline": "Марков против Морозова",
+        "text": "<p class='tl-line'>Русская ветка</p><p>Марков разбирает «лингвистические спектры» Морозова и показывает, что выбранные признаки — например частота «не» — нестабильны и не позволяют уверенно различать авторов. Критика вычислительных методов в гуманитарных вопросах оказывается старше компьютеров.</p><p class='tl-ref'><strong>Ссылка:</strong> Марков А. А. Об одном применении статистического метода // Известия Императорской Академии наук. VI серия. 1916. Т. 10, № 4. С. 239–242.</p><p class='tl-link'><strong>Пара на дорожке методов:</strong> <a target='_self' href='#event-morozov-1915'>Морозов, 1915</a>. Тот же Марков тремя годами ранее: <a target='_self' href='#event-markov-1913'>1913</a>. Через сто лет тот же аргумент: <a target='_self' href='#event-da-2019'>Да, 2019</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "drucker-2011",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2011" },
+      "text": {
+        "headline": "Друкер: capta вместо data",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Друкер показывает, что графики, взятые из естественных наук, выдают сконструированное за данное. Она предлагает говорить не о data («данном»), а о capta («взятом»): всё, что попадает на график, уже отобрано и истолковано исследователем. Её критика касается и самого этого таймлайна: шкала тоже конструирует историю.</p><p class='tl-ref'><strong>Ссылка:</strong> Drucker J. Humanities Approaches to Graphical Display // Digital Humanities Quarterly. 2011. Vol. 5, no. 1. URL: <a href='http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html' target='_blank' rel='noopener'>digitalhumanities.org/dhq/vol/5/1/000091/000091.html</a> (дата обращения: 04.10.2026).</p><p class='tl-link'>Социально-научная пара: <a target='_self' href='#event-boyd-crawford-2012'>бойд и Кроуфорд, 2012</a>. Рядом: <a target='_self' href='#event-ramsay-2011'>Рэмзи, 2011</a>, <a target='_self' href='#event-gitelman-2013'>Гительман, 2013</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "boyd-crawford-2012",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2012" },
+      "text": {
+        "headline": "бойд и Кроуфорд: шесть провокаций",
+        "text": "<p class='tl-line'>Социально-научная линия</p><p>Большие данные меняют само определение знания; претензии на объективность и точность обманчивы; больше данных не значит лучше; вне контекста данные теряют смысл; доступность не делает использование этичным; ограниченный доступ создаёт новое неравенство.</p><p class='tl-ref'><strong>Ссылка:</strong> boyd d., Crawford K. Critical Questions for Big Data: Provocations for a Cultural, Technological, and Scholarly Phenomenon // Information, Communication &amp; Society. 2012. Vol. 15, no. 5. P. 662–679. DOI: <a href='https://doi.org/10.1080/1369118X.2012.678878' target='_blank' rel='noopener'>10.1080/1369118X.2012.678878</a>.</p><p class='tl-link'>Гуманитарная пара: <a target='_self' href='#event-drucker-2011'>Друкер, 2011</a>. Повод: <a target='_self' href='#event-michel-2011'>культуромика, 2011</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "gitelman-2013",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2013" },
+      "text": {
+        "headline": "Гительман: «сырых данных» не бывает",
+        "text": "<p class='tl-line'>Гуманитарная линия и STS</p><p>Сборник показывает на исторических примерах, что данные всегда производятся: их отбирают, классифицируют, хранят и истолковывают. Название книги стало формулой целого направления — critical data studies.</p><p class='tl-ref'><strong>Ссылка:</strong> “Raw Data” Is an Oxymoron / ed. by L. Gitelman. Cambridge (MA) : MIT Press, 2013. 182 p. DOI: <a href='https://doi.org/10.7551/mitpress/9302.001.0001' target='_blank' rel='noopener'>10.7551/mitpress/9302.001.0001</a>.</p><p class='tl-link'>Рядом: <a target='_self' href='#event-drucker-2011'>Друкер, 2011</a>, <a target='_self' href='#event-boyd-crawford-2012'>бойд и Кроуфорд, 2012</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "pechenick-2015",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2015" },
+      "text": {
+        "headline": "Печеник и др.: что не так с Google Books",
+        "text": "<p class='tl-line'>Пара к культуромике</p><p>Авторы показывают, что состав корпуса Google Books сильно меняется во времени: доля научной литературы растёт, отдельные издания попадают в корпус многократно. Частоты слов отражают историю оцифровки не меньше, чем историю культуры, и это ограничивает выводы о социокультурной и языковой эволюции.</p><p class='tl-ref'><strong>Ссылка:</strong> Pechenick E. A., Danforth C. M., Dodds P. S. Characterizing the Google Books Corpus: Strong Limits to Inferences of Socio-Cultural and Linguistic Evolution // PLoS ONE. 2015. Vol. 10, no. 10. Art. e0137041. DOI: <a href='https://doi.org/10.1371/journal.pone.0137041' target='_blank' rel='noopener'>10.1371/journal.pone.0137041</a>.</p><p class='tl-link'><strong>Пара на дорожке методов:</strong> <a target='_self' href='#event-michel-2011'>Мишель и др., 2011</a>.</p><p class='tl-verify'>Сверить DOI (номер статьи e0137041 подтверждён).</p>"
+      }
+    },
+    {
+      "unique_id": "bolukbasi-2016",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2016" },
+      "text": {
+        "headline": "Болукбаши и др.: стереотипы в эмбеддингах",
+        "text": "<p class='tl-line'>Лингвистика и NLP</p><p>Авторы показывают, что эмбеддинги, обученные на новостях Google News, воспроизводят гендерные стереотипы, особенно о профессиях: гендер оказывается отдельным направлением в векторном пространстве. Они предлагают способ «очищать» эмбеддинги от смещений. Те же аналогии, которыми восхищались в word2vec, оказываются зеркалом предрассудков из обучающих текстов.</p><p class='tl-ref'><strong>Ссылка:</strong> Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings / T. Bolukbasi, K.-W. Chang, J. Zou [et al.] // Advances in Neural Information Processing Systems 29 (NIPS 2016). 2016. P. 4349–4357.</p><p class='tl-link'><strong>Пара на дорожке методов:</strong> <a target='_self' href='#event-word2vec-2013'>word2vec, 2013</a>. Через три года то же свойство как инструмент: <a target='_self' href='#event-kozlowski-2019'>Козловски и др., 2019</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "bode-2017",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2017" },
+      "text": {
+        "headline": "Боде: общая слепота близкого и дальнего",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Боде показывает, что «дальнее чтение» Моретти и «макроанализ» Джокерса моделируют литературу абстрактно и внеисторично, потому что не учитывают текстологию и историю книги. Близкое и дальнее чтение у неё не противоположности: у них общая слепота. Взамен она предлагает научное издание литературной системы.</p><p class='tl-ref'><strong>Ссылка:</strong> Bode K. The Equivalence of “Close” and “Distant” Reading; or, Toward a New Object for Data-Rich Literary History // Modern Language Quarterly. 2017. Vol. 78, no. 1. P. 77–106. DOI: <a href='https://doi.org/10.1215/00267929-3699787' target='_blank' rel='noopener'>10.1215/00267929-3699787</a>.</p><p class='tl-link'><strong>Пара на дорожке теории:</strong> <a target='_self' href='#event-moretti-2000'>Моретти, 2000</a>, <a target='_self' href='#event-jockers-2013'>Джокерс, 2013</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "reitblat-2018",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2018" },
+      "text": {
+        "headline": "Рейтблат: русская реакция на Моретти",
+        "text": "<p class='tl-line'>Русская ветка</p><p>В 2018 году НЛО посвятило русскому переводу «Дальнего чтения» целый блок статей. Историк и социолог литературы Рейтблат, судя по названию и пересказам, упрекает Моретти в том, что его построения недостаточно опираются на факты и недостаточно теоретически обоснованы.</p><p class='tl-ref'><strong>Ссылка:</strong> Рейтблат А. И. Теория без фактов, цифры без теории // Новое литературное обозрение. 2018. № 2 (150). С. 57–61.</p><p class='tl-link'><strong>Пара на дорожке теории:</strong> <a target='_self' href='#event-moretti-2000'>Моретти, 2000</a>. Вторая статья блока: <a target='_self' href='#event-pilshchikov-2018'>Пильщиков, 2018</a>.</p><p class='tl-verify'>Сверить: выходные данные подтверждены дважды, содержание известно по названию и пересказам — текст стоит прочитать до того, как писать подпись. В выдаче Perplexity статья ошибочно приписана Собчуку.</p>"
+      }
+    },
+    {
+      "unique_id": "pilshchikov-2018",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2018" },
+      "text": {
+        "headline": "Пильщиков: новый квантитативный формализм",
+        "text": "<p class='tl-minor'>Вторая статья блока НЛО о русском переводе <a target='_self' href='#event-moretti-2000'>«Дальнего чтения»</a>, рядом с <a target='_self' href='#event-reitblat-2018'>Рейтблатом</a>.</p><p class='tl-ref'>Пильщиков И. А. Франко Моретти и новый квантитативный формализм // Новое литературное обозрение. 2018. № 2 (150). С. 39–45.</p>"
+      }
+    },
+    {
+      "unique_id": "da-2019",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2019" },
+      "text": {
+        "headline": "Да: вычислительный аргумент против",
+        "text": "<p class='tl-line'>Гуманитарная линия</p><p>Да утверждает, что выводы вычислительного литературоведения либо надёжны и очевидны, либо неочевидны и ненадёжны, потому что статистические инструменты не подходят к литературным данным. Статья вызвала волну ответов исследователей DH, в том числе Бенджамина Шмидта.</p><p class='tl-ref'><strong>Ссылка:</strong> Da N. Z. The Computational Case against Computational Literary Studies // Critical Inquiry. 2019. Vol. 45, no. 3. P. 601–639. DOI: <a href='https://doi.org/10.1086/702594' target='_blank' rel='noopener'>10.1086/702594</a>.</p><p class='tl-link'>Вторая большая пара «метод — критика» после <a target='_self' href='#event-markov-1916'>Маркова и Морозова</a>. Против кого: <a target='_self' href='#event-moretti-2000'>Моретти, 2000</a>, <a target='_self' href='#event-jockers-2013'>Джокерс, 2013</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "bender-koller-2020",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2020" },
+      "text": {
+        "headline": "Бендер и Коллер: форма не равна значению",
+        "text": "<p class='tl-line'>Лингвистика и NLP</p><p>Авторы утверждают, что система, обученная только на форме языка, в принципе не может выучить значение. Успехи на бенчмарках не доказывают «понимания». Для шкалы это вопрос о том, что именно «читает» модель.</p><p class='tl-ref'><strong>Ссылка:</strong> Bender E. M., Koller A. Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data // Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. Online : ACL, 2020. P. 5185–5198. DOI: <a href='https://doi.org/10.18653/v1/2020.acl-main.463' target='_blank' rel='noopener'>10.18653/v1/2020.acl-main.463</a>.</p><p class='tl-link'><strong>Пара на дорожке методов:</strong> <a target='_self' href='#event-devlin-2019'>BERT, 2019</a>. Обратная позиция: <a target='_self' href='#event-harris-1954'>дистрибутивная гипотеза, 1954</a>.</p>"
+      }
+    },
+    {
+      "unique_id": "bender-2021",
+      "group": "Критика",
+      "autolink": false,
+      "start_date": { "year": "2021" },
+      "text": {
+        "headline": "Бендер и др.: стохастические попугаи",
+        "text": "<p class='tl-line'>Лингвистика и NLP</p><p>Авторы спрашивают, насколько большими должны быть языковые модели, и перечисляют риски: экологические и финансовые затраты, огромные непроверяемые корпуса со смещениями, иллюзию понимания. Метафора «стохастического попугая» стала нарицательной. S. Shmitchell в списке авторов — псевдоним Маргарет Митчелл.</p><p class='tl-ref'><strong>Ссылка:</strong> On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? / E. M. Bender, T. Gebru, A. McMillan-Major, S. Shmitchell // Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT ’21). New York : ACM, 2021. P. 610–623. DOI: <a href='https://doi.org/10.1145/3442188.3445922' target='_blank' rel='noopener'>10.1145/3442188.3445922</a>.</p><p class='tl-link'><strong>Пара на дорожке методов:</strong> <a target='_self' href='#event-gpt3-2020'>GPT-3, 2020</a>, <a target='_self' href='#event-gilardi-2023'>ChatGPT как разметчик, 2023</a>.</p>"
+      }
+    }
+  ]
+}
