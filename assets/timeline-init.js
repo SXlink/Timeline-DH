@@ -7,7 +7,7 @@
   /* Версия данных в адресе. Браузер и CDN GitHub Pages кешируют
      data/timeline.json надолго, и после правки читатель видел бы старую шкалу.
      Меняйте дату при каждом обновлении данных. */
-  var DATA_VERSION = "2026-10-04";
+  var DATA_VERSION = "2026-10-04b";
   var DATA_URL = "data/timeline.json?v=" + DATA_VERSION;
 
   var options = {
